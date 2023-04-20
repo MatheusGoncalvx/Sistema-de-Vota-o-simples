@@ -38,8 +38,8 @@
 
 		// Obtém a opção selecionada
 		$voto = $_POST['opcao'];
-
-		// Incrementa o contador da opção selecionada
+		
+		//Teste das condições
 		if ($voto == 1) {
 			$opcao1++;
 		} elseif ($voto == 2) {
